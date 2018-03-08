@@ -52,10 +52,16 @@ function AlreadyBoughtController(ShoppingListCheckOffService) {
      name: "Chips",
      quantity: "10"
    };
+   var item5 = {
+     name: "ICeCreams",
+     quantity: "40"
+   };
+
    items.push(item1);
    items.push(item2);
    items.push(item3);
    items.push(item4);
+   items.push(item5);
 
    service.getItems = function () {
      return items;
