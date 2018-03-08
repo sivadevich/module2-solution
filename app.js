@@ -71,8 +71,6 @@ function AlreadyBoughtController(ShoppingListCheckOffService) {
      return itemsBought;
    };
    service.moveItemsToBought = function (itemIdex) {
-      itemsBoughtFlag=true;
-      console.log("Service move Items Item is  "+items[itemIdex].name);
         itemsBought.push(items[itemIdex]);
         items.splice(itemIdex, 1);
  };
