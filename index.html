@@ -43,7 +43,7 @@
     <div class="col-md-6" ng-controller="AlreadyBoughtController as alreadyBoughtCntrl">
      <h2>Already Bought:</h2>
      <ul>
-       <li ng-repeat="item in alreadyBoughtCntrl.itemsBought"">Buy {{item.quantity}} {{item.name}}
+       <li ng-repeat="item in alreadyBoughtCntrl.itemsBought"">Bought {{item.quantity}} {{item.name}}
      </ul>
      <div ng-show="!alreadyBoughtCntrl.itemsBought.length"class="emptyMessage">Nothing bought yet.</div>
     </div>
